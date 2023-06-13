@@ -272,7 +272,7 @@
     padding: 5px;
     color: white;
     background-color: #000;
-    padding-top: 5%;
+    padding-top: 2%;
     animation: 10s anim-lineUp ease-out infinite ;
 
   }
@@ -333,7 +333,7 @@
  }
  #color3{
   position: absolute;
-  top:180vh;
+  top:179vh;
   left:3%;
   width: 80px;
   height: 80px;
@@ -357,9 +357,9 @@
  
 #content1{
   flex-basis: 40%;
-  font-size: 26px;
+  font-size: 22px;
   margin-top: 3%;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-left: 5%;
   font-family: 'Playfair Display', serif;
   border-left: 1px solid white;
