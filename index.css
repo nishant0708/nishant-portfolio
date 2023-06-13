@@ -333,7 +333,7 @@
  }
  #color3{
   position: absolute;
-  top:179vh;
+  top:178vh;
   left:3%;
   width: 80px;
   height: 80px;
@@ -357,7 +357,7 @@
  
 #content1{
   flex-basis: 40%;
-  font-size: 22px;
+  font-size: 16px;
   margin-top: 3%;
   padding-top: 1%;
   padding-left: 5%;
@@ -436,7 +436,7 @@
   position: relative;
   flex-basis: 45%;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 0.2%;
   transform: translateX(200%);
   
 }
@@ -444,8 +444,6 @@
   width: 200%;
   background-color: #7b7b7b;
   border-radius:10px  ;
-  
-  
   
 }
 .bar{
@@ -469,7 +467,7 @@
 }
 .text{
   color: #000;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 600;
    font-family: 'Playfair Display', serif;
    margin-top: 10%;
@@ -574,10 +572,10 @@
 }
 #circle{
  
- left: 4%;
+ left: 2%;
   position: absolute;
-  width: 900px;
-  height: 900px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.236);
   z-index: 2;
@@ -651,7 +649,7 @@
   font-family: 'Playfair Display', serif;
 }
 #foot{
-  margin-top: 8vh;
+  
   background-color: rgb(61, 61, 61);
   position: relative;
   height: max-content;
