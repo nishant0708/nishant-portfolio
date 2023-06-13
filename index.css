@@ -313,8 +313,8 @@
  }
  #color1{
   position: absolute;
-  top:168vh;
-  left:8%;
+  top:169vh;
+  left:8.5%;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -571,11 +571,11 @@
   animation: skwidth6 5s  ease-in-out infinite;
 }
 #circle{
- top:31vh;
- left: 6.5%;
+ top:28vh;
+ left: 8%;
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 650px;
+  height: 650px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.236);
   z-index: 2;
@@ -603,10 +603,10 @@
     left: -90%;
   }
   #circle{
-     top:5vh;
-    left: 15%;
-    width: 250px;
-    height: 250px;
+     top:16vh;
+    left: 17%;
+    width: 220px;
+    height: 220px;
     
   }
   #skill{
