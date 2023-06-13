@@ -652,7 +652,7 @@
   
   background-color: rgb(61, 61, 61);
   position: relative;
-  height: 20vh;
+  height: max-content;
   display: flex;
   justify-content: space-evenly;
   
