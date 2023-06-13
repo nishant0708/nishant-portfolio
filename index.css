@@ -343,7 +343,7 @@
  }
  #color4{
   position: absolute;
-  top:195vh;
+  top:190vh;
   left:-3%;
   width: 190px;
   height: 190px;
@@ -572,7 +572,7 @@
 }
 #circle{
  top:30vh;
- left: 6%;
+ left: 6.5%;
   position: absolute;
   width: 600px;
   height: 600px;
@@ -652,7 +652,7 @@
   
   background-color: rgb(61, 61, 61);
   position: relative;
-  height: max-content;
+  height: 15vh;
   display: flex;
   justify-content: space-evenly;
   
