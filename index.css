@@ -333,7 +333,7 @@
  }
  #color3{
   position: absolute;
-  top:178vh;
+  top:182vh;
   left:3%;
   width: 80px;
   height: 80px;
@@ -343,7 +343,7 @@
  }
  #color4{
   position: absolute;
-  top:190vh;
+  top:195vh;
   left:-3%;
   width: 190px;
   height: 190px;
@@ -357,7 +357,7 @@
  
 #content1{
   flex-basis: 40%;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 3%;
   padding-top: 1%;
   padding-left: 5%;
@@ -467,8 +467,8 @@
 }
 .text{
   color: #000;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 800;
    font-family: 'Playfair Display', serif;
    margin-top: 10%;
   
@@ -571,8 +571,8 @@
   animation: skwidth6 5s  ease-in-out infinite;
 }
 #circle{
- 
- left: 2%;
+ top:1%;
+ left: 3%;
   position: absolute;
   width: 600px;
   height: 600px;
