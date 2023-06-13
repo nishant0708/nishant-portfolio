@@ -370,7 +370,7 @@
       height: 100vh;
     }
     #images img{
-      margin-left: 15%;
+      margin-left: 20%;
     }
     #content1{
       font-size: 16px;
@@ -603,6 +603,7 @@
     left: -90%;
   }
   #circle{
+     top:-10vh;
     left: 15%;
     width: 250px;
     height: 250px;
@@ -697,9 +698,7 @@
     font-size: 18px;
    
   }
-  #foot{
-    top:-4vh;
-  }
+  
   .em{
     font-size: 1px;
    
@@ -1004,7 +1003,7 @@ font-size: 30px;
   }
   .xobut{
     width: 300px;
-    left: 10%;
+    left: 15%;
     margin-top: 10%;
   }
   .xobut a{
@@ -1089,7 +1088,7 @@ font-size: 30px;
     left: 3%;
   }
   .herobtn{
-    left: 10%;
+    left: 5%;
     margin-top: 5%;
   }
 }
@@ -1160,7 +1159,7 @@ font-size: 30px;
     font-size: 18px;
   }
   .sbut{
-    transform: translateX(45%);
+    transform: translateX(50%);
   }
   .sbut a{
     font-size: 18px;
@@ -1253,6 +1252,6 @@ font-size: 30px;
     font-size: 18px;
   }
   .dbut{
-    transform: translateX(50%);
+    transform: translateX(55%);
   }
 }
