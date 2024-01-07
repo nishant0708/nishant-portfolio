@@ -412,7 +412,7 @@ color: var(--c);
   border: 1px solid #ccc;
   margin: 5px;
   display: inline-block;
-    width: calc(50% / 3); 
+    width: calc(60% / 3); 
     box-sizing: border-box;
     border: 1px solid #ddd; 
     padding: 10px;
