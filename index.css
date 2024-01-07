@@ -1,66 +1,66 @@
 * {
-    margin: 0%;
-    
-    color: white;
-    
-    
+  margin: 0%;
+  
+  color: white;
+  
+  
 
 
 }
 .header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
-                      url('https://cdn.wallpapersafari.com/62/89/bHASOU.jpg');
-    background-position: center;
-    background-size: cover;
-    position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+                    url('https://cdn.wallpapersafari.com/62/89/bHASOU.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 .dropbtn {
-  background-color:transparent;
-  color: white;
-  padding: 16px;
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
-  border: none;
-  --c: #e6d965; 
-    --s: .15em;
-    
-    line-height:1.1em;
-    padding-bottom: calc(2.1*var(--s));
-    background: 
-      conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
-        left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
-      conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
-        left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
-    -webkit-mask:
-      linear-gradient(#000 0 0) content-box,
-      linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
-    transition: .5s;
+background-color:transparent;
+color: white;
+padding: 16px;
+font-size: 30px;
+font-family: 'Lobster', cursive;
+border: none;
+--c: #e6d965; 
+  --s: .15em;
+  
+  line-height:1.1em;
+  padding-bottom: calc(2.1*var(--s));
+  background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+      left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+      left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
 }
 
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+position: relative;
+display: inline-block;
 }
 
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
 }
 
 
@@ -70,9 +70,9 @@
 
 
 .dropdown:hover .dropbtn {
-  --_p: 100%;
-  color: var(--c);
- }
+--_p: 100%;
+color: var(--c);
+}
 
 #port {
 
@@ -170,13 +170,13 @@
     line-height:1.1em;
     padding-bottom: calc(2.1*var(--s));
     background: 
-      conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+      conic-gradient(from 135deg at top,var(--c) 90deg,#121212 0 0) 
         left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
-      conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+      conic-gradient(from -45deg at bottom,var(--c) 90deg,#121212 0 0) 
         left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
     -webkit-mask:
-      linear-gradient(#000 0 0) content-box,
-      linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+      linear-gradient(#121212 0 0) content-box,
+      linear-gradient(#121212 0 0) 0/var(--_p,0%) padding-box no-repeat;
     transition: .5s;
   }
   .line:hover {
@@ -254,14 +254,16 @@
 
   /*-------------------------------------- About me section-----------------------------*/
    #aboutme{
-    background-color: #000;
+    background-color: #121212;
+   
    }
   #about{
     position: relative;
     display:flex;
     width: 100%;
     height: 80vh;
-    background-color: black;
+    background-color: #121212;
+
   }
   .heading1{
     position: relative;
@@ -271,7 +273,7 @@
     background-color: transparent;
     padding: 5px;
     color: white;
-    background-color: #000;
+    background-color: #121212;
     padding-top: 2%;
     animation: 10s anim-lineUp ease-out infinite ;
 
@@ -295,7 +297,7 @@
   }
   #images{
     flex-basis: 45%;
-  background-color: rgb(0, 0, 0);
+  background-color: #121212;
   align-items: center;
   
   }
@@ -313,7 +315,7 @@
  }
  #color1{
   position: absolute;
-  top:169vh;
+  top:172vh;
   left:8.5%;
   width: 20px;
   height: 20px;
@@ -323,7 +325,7 @@
  }
  #color2{
   position: absolute;
-  top:173vh;
+  top:177vh;
   left:6%;
   width: 50px;
   height: 50px;
@@ -333,7 +335,7 @@
  }
  #color3{
   position: absolute;
-  top:180vh;
+  top:185vh;
   left:3%;
   width: 80px;
   height: 80px;
@@ -341,17 +343,7 @@
   background-color: rgb(255, 255, 255);
   z-index: 2;
  }
- #color4{
-  position: absolute;
-  top:191vh;
-  left:-3%;
-  width: 190px;
-  height: 190px;
-  border-radius: 50%;
-  background-color: rgb(255, 255, 255);
-  border-radius: 2px solid white;
-  z-index: 2;
- }
+
 
   
  
@@ -376,7 +368,7 @@
       font-size: 16px;
       
       padding-left: 4%;
-      border-left: #000;
+      border-left: #121212;
       border-top: 2px solid #ffffff;
     }
    
@@ -396,232 +388,86 @@
 
 
 /* -------------------------skills------------------------*/
-
- #skills{
-  width: 100%;
-  height: 100vh;
+#skills{
   position: relative;
-  background-color: rgb(255, 255, 255);
-  z-index: 3;
-  overflow: hidden;
- 
- }
- .heading2{
+  height: auto;
+
+  background: rgb(156, 156, 156);
+
+ color: #121212;
+}
+.heading2{
   position: relative;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 96px;
+    font-size: 92px;
     background-color: transparent;
     padding: 5px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
+    color: #121212;
     padding-top: 3%;
-  
- }
- #imgbar{
-  width: 80vh;
-  display: flex;
-
- }
- #image{
-  flex-basis: 45%;
-  width: 300%;
-  margin-left: 20%;
-  position: relative;
- }
- .pic{
-  width: 250%;
- }
-#skill{
-  position: relative;
-  flex-basis: 45%;
-  width: 100%;
-  margin-top: 0.2%;
-  transform: translateX(200%);
-  
-}
-.cointainer{
-  width: 200%;
-  background-color: #7b7b7b;
-  border-radius:10px  ;
-  
-}
-.bar{
-  text-align: right;
-  color: rgb(255, 255, 255);
-  padding: 0.2%;
-}
-@keyframes skwidth{
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 100%;
-  }
-}
-.html{
-  width: 100%;
-  background-color: #ff6a00;
-  border-radius:10px;
-  animation: skwidth 5s  ease-in-out infinite;
-}
-.text{
-  color: #000;
-  font-size: 14px;
-  font-weight: 800;
-   font-family: 'Playfair Display', serif;
-   margin-top: 10%;
-  
 
 }
 
-@keyframes skwidth1{
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 90%;
-  }}
-  @keyframes skwidth2{
-    0%{
-      width: 0%;
-    }
-    100%{
-      width: 70%;
-    }}
-    @keyframes skwidth3{
-      0%{
-        width: 0%;
-      }
-      100%{
-        width: 60%;
-      }}
-      @keyframes skwidth4{
-        0%{
-          width: 0%;
-        }
-        100%{
-          width: 75%;
-        }}
-        @keyframes skwidth5{
-          0%{
-            width: 0%;
-          }
-          100%{
-            width: 60%;
-          }}
+.gallery-view {
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: inline-block;
+    width: calc(70% / 3); 
+    box-sizing: border-box;
+    border: 1px solid #ddd; 
+    padding: 10px;
+    font-size: 16px;
+    transition: 1s;
+}
 
-          @keyframes skwidth6{
-            0%{
-              width: 0%;
-            }
-            100%{
-              width: 80%;
-            }}
+hr{
+  margin-top:50px ;
+  height: 1px;
+  border-color: #121212;
+  background-color: #121212;
+}
+
+.gallery-view:hover {
+  border: 1px solid #000000;
+  background-color: wheat;
     
+  transform: scale(102%)
+}
 
-.css{
+.gallery-view img {
   width: 100%;
-  background-color: #ff6a00;
-  border-radius:10px;
-  animation: skwidth  5s  ease-in-out infinite;
-  
+  height: 350px;
 }
-.javascript{
-  width: 80%;
-  background-color: #ff6a00;
-  border-radius:10px  ;
-  animation: skwidth6 5s  ease-in-out infinite;
-}
-.react{
-  width: 60%;
-  background-color: #ff6a00;
-  border-radius:10px  ;
-  animation: skwidth5 5s  ease-in-out infinite;
 
+.skill {
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+  color: #121212;
 }
-.c{
-  width: 90%;
-  background-color: #ff6a00;
-  border-radius:10px  ;
-  animation:skwidth1  5s  ease-in-out infinite;
+.skill-cat{
+  margin: 50px 10px 20px 50px;
+color: #121212;
+font-size: 45px;
 }
-.cpp{
-  width: 90%;
-  background-color: #ff6a00;
-  border-radius:10px  ;
-  animation: skwidth1 5s  ease-in-out infinite;
-}
-.python{
-  width: 70%;
-  background-color: #ff6a00;
-  border-radius:10px  ;
-  animation: skwidth2 5s  ease-in-out infinite;
-}
-.java{
-  width: 75%;
-  background-color: #ff6a00;
-  border-radius:10px  ;
-  animation: skwidth3 5s  ease-in-out infinite;
-}
-.dsa{
-  width: 80%;
-  background-color: #ff6a00;
-  border-radius:10px  ;
-  animation: skwidth6 5s  ease-in-out infinite;
-}
-#circle{
- top:28vh;
- left: 8%;
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.236);
-  z-index: 2;
-}
-#back{
-  position: absolute;
-  top: -10%;
+
+#list1 {
+
+  margin: 20px 10px 20px 10px;
+  white-space: nowrap;
+  overflow-x: auto;
+  font-size: 0
+
   
-  width:50%;
 }
-@media(max-width:700px){
-  #skills{
-    overflow: hidden;
-    height: 110vh;
-  }
-  #imgbar{
-    display: grid;
-  }
-  .pic{
-    width: 10%;
-    margin-left: -3%;
-  }
-  #back{
-    width: 1%;
-    left: -90%;
-  }
-  #circle{
-     top:16vh;
-    left: 17%;
-    width: 220px;
-    height: 220px;
-    
-  }
-  #skill{
-    transform: translateX(5%);
-    width: 20%;
-    margin-left: 3%;
-  }
  
-}
+
 /*---------------------- contact ------------------*/
 #contact{
   position: relative;
   width: 100%;
   height: 40vh;
-  background-color: #000;
+  background-color: #121212;
   overflow: hidden;
 }
 .heading3{
@@ -632,7 +478,7 @@
     background-color: transparent;
     padding: 5px;
     color: rgb(255, 255, 255);
-    background-color: #000000;
+    background-color: #121212;
     padding-top: 3%;
 
 }
@@ -761,7 +607,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color:#000000;
+  background-color:#121212;
   
   overflow: hidden;
 }
@@ -773,7 +619,7 @@
     background-color: transparent;
     padding: 5px;
     color: #bf997e;
-    background-color: #000;
+    background-color: #121212;
     padding-top: 3%;
     animation: anim-flipX 5s infinite;
     
@@ -1097,7 +943,7 @@ font-size: 30px;
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #000;
+  background-color: #121212;
   padding-bottom: 2%;
 }
 .pr4{
@@ -1108,7 +954,7 @@ font-size: 30px;
   background-color: transparent;
   padding: 5px;
   color: #ffffff;
-  background-color: #000;
+  background-color: #121212;
   text-shadow: 10px 10px rgba(124, 10, 10, 0.644);
   padding-top: 2%;
   animation: anim-flipX 5s infinite;
@@ -1172,7 +1018,7 @@ font-size: 30px;
   position: relative;
   width: 100%;
   height: 120vh;
-  background-color: #000;
+  background-color: #121212;
   border-bottom: 2px solid white;
 }
 .pr5{
@@ -1183,8 +1029,8 @@ font-size: 30px;
   background-color: transparent;
   padding: 5px;
   color: #ffffff;
- margin-top: 2%;
-  padding-top: 2%;
+
+  padding-top: 1%;
    border-top:2px solid white ;
  
 }
@@ -1254,4 +1100,52 @@ font-size: 30px;
   .dbut{
     transform: translateX(55%);
   }
+}
+/*---------------------- ecomm ------------------*/
+
+#ecommerce{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),
+                      url('arrangement-black-friday-shopping-carts-with-copy-space.jpg');
+}
+.pr6{
+  position: relative;
+  text-align: center;
+  
+  font-size: 78px;
+  background-color: transparent;
+  padding: 5px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+ 
+  padding-top: 2%;
+   
+ 
+}
+
+.conte{
+  font-size:28px;
+
+  margin: 150px 100px 50px 100px;
+}
+
+.ecombtn{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  left: 40%;
+  font-size: 36px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.ecombtn:hover{
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  color: #121212;
+  transition: 1s;
 }
